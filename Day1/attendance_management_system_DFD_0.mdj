@@ -1,0 +1,808 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAF64buXWUaJvg0=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel1",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAF64buXWkaKnkw=",
+					"_parent": {
+						"$ref": "AAAAAAF64buXWUaJvg0="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF64dwSp0cLhu4=",
+							"_parent": {
+								"$ref": "AAAAAAF64buXWkaKnkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF64dwSp0cJndc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF64dwSqEcRheM=",
+									"_parent": {
+										"$ref": "AAAAAAF64dwSp0cLhu4="
+									},
+									"font": "Arial;13;0",
+									"left": 370,
+									"top": 213,
+									"width": 108,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF64dwSp0cM1W0=",
+									"_parent": {
+										"$ref": "AAAAAAF64dwSp0cLhu4="
+									},
+									"font": "Arial;13;0",
+									"left": 370,
+									"top": 218,
+									"width": 108,
+									"height": 13,
+									"text": "Lecturer",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF64dwSp0cNrVY=",
+									"_parent": {
+										"$ref": "AAAAAAF64dwSp0cLhu4="
+									},
+									"font": "Arial;13;0",
+									"left": 96,
+									"top": 40,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 360,
+							"top": 208,
+							"width": 128,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAF64dwSp0cM1W0="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF64dx5IUcX3aI=",
+							"_parent": {
+								"$ref": "AAAAAAF64buXWkaKnkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF64dx5IUcVvKY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF64dx5IkcdyR4=",
+									"_parent": {
+										"$ref": "AAAAAAF64dx5IUcX3aI="
+									},
+									"font": "Arial;13;0",
+									"left": 82,
+									"top": 373,
+									"width": 100,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF64dx5IUcYMl8=",
+									"_parent": {
+										"$ref": "AAAAAAF64dx5IUcX3aI="
+									},
+									"font": "Arial;13;0",
+									"left": 82,
+									"top": 378,
+									"width": 100,
+									"height": 13,
+									"text": "Admin",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF64dx5IUcZpOQ=",
+									"_parent": {
+										"$ref": "AAAAAAF64dx5IUcX3aI="
+									},
+									"font": "Arial;13;0",
+									"left": -8,
+									"top": -24,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 72,
+							"top": 368,
+							"width": 120,
+							"height": 73,
+							"nameLabel": {
+								"$ref": "AAAAAAF64dx5IUcYMl8="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF64dzK+EcjpIo=",
+							"_parent": {
+								"$ref": "AAAAAAF64buXWkaKnkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF64dzK+Echx2M="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF64dzK+Ecpc+0=",
+									"_parent": {
+										"$ref": "AAAAAAF64dzK+EcjpIo="
+									},
+									"font": "Arial;13;0",
+									"left": 722,
+									"top": 373,
+									"width": 108,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF64dzK+Eckzso=",
+									"_parent": {
+										"$ref": "AAAAAAF64dzK+EcjpIo="
+									},
+									"font": "Arial;13;0",
+									"left": 722,
+									"top": 378,
+									"width": 108,
+									"height": 13,
+									"text": "HOD",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF64dzK+EclEdw=",
+									"_parent": {
+										"$ref": "AAAAAAF64dzK+EcjpIo="
+									},
+									"font": "Arial;13;0",
+									"left": 40,
+									"top": -16,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 712,
+							"top": 368,
+							"width": 128,
+							"height": 73,
+							"nameLabel": {
+								"$ref": "AAAAAAF64dzK+Eckzso="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF64d0cg0cxnF8=",
+							"_parent": {
+								"$ref": "AAAAAAF64buXWkaKnkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF64d0cg0cvKzI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF64d0cg0c3Q2Q=",
+									"_parent": {
+										"$ref": "AAAAAAF64d0cg0cxnF8="
+									},
+									"font": "Arial;13;0",
+									"left": 378,
+									"top": 541,
+									"width": 116,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF64d0cg0cybwQ=",
+									"_parent": {
+										"$ref": "AAAAAAF64d0cg0cxnF8="
+									},
+									"font": "Arial;13;0",
+									"left": 378,
+									"top": 546,
+									"width": 116,
+									"height": 13,
+									"text": "Principal",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF64d0cg0cz1CU=",
+									"_parent": {
+										"$ref": "AAAAAAF64d0cg0cxnF8="
+									},
+									"font": "Arial;13;0",
+									"left": -24,
+									"top": -40,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 368,
+							"top": 536,
+							"width": 136,
+							"height": 48,
+							"nameLabel": {
+								"$ref": "AAAAAAF64d0cg0cybwQ="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF64eBBfUdLptg=",
+							"_parent": {
+								"$ref": "AAAAAAF64buXWkaKnkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF64eBBfUdJnTg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF64eBBfUdMyDE=",
+									"_parent": {
+										"$ref": "AAAAAAF64eBBfUdLptg="
+									},
+									"font": "Arial;13;0",
+									"left": 322,
+									"top": 384,
+									"width": 212,
+									"height": 26,
+									"text": "Student Attendance Management System",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF64eBBfUdNoG0=",
+									"_parent": {
+										"$ref": "AAAAAAF64eBBfUdLptg="
+									},
+									"font": "Arial;13;0",
+									"left": 322,
+									"top": 357,
+									"width": 212,
+									"height": 13,
+									"text": "0"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 312,
+							"top": 352,
+							"width": 232,
+							"height": 97,
+							"nameLabel": {
+								"$ref": "AAAAAAF64eBBfUdMyDE="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF64eBBfUdNoG0="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF64eJePUde8MA=",
+							"_parent": {
+								"$ref": "AAAAAAF64buXWkaKnkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF64eJePEdc9RY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF64eJePUdfE0s=",
+									"_parent": {
+										"$ref": "AAAAAAF64eJePUde8MA="
+									},
+									"model": {
+										"$ref": "AAAAAAF64eJePEdc9RY="
+									},
+									"font": "Arial;13;0",
+									"left": 204,
+									"top": 373,
+									"width": 95.38623046875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF64eJePUde8MA="
+									},
+									"edgePosition": 1,
+									"text": "Software Setting"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF64eBBfUdLptg="
+							},
+							"tail": {
+								"$ref": "AAAAAAF64dx5IUcX3aI="
+							},
+							"lineStyle": 2,
+							"points": "191:394;312:394",
+							"nameLabel": {
+								"$ref": "AAAAAAF64eJePUdfE0s="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF64eShwEds4sA=",
+							"_parent": {
+								"$ref": "AAAAAAF64buXWkaKnkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF64eShwEdqjGs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF64eShwEdt7H4=",
+									"_parent": {
+										"$ref": "AAAAAAF64eShwEds4sA="
+									},
+									"model": {
+										"$ref": "AAAAAAF64eShwEdqjGs="
+									},
+									"font": "Arial;13;0",
+									"left": 231,
+									"top": 412,
+									"width": 39.01904296875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF64eShwEds4sA="
+									},
+									"edgePosition": 1,
+									"text": "Report"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF64dx5IUcX3aI="
+							},
+							"tail": {
+								"$ref": "AAAAAAF64eBBfUdLptg="
+							},
+							"lineStyle": 2,
+							"points": "312:403;191:403",
+							"nameLabel": {
+								"$ref": "AAAAAAF64eShwEdt7H4="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF64eY3gUd3WP4=",
+							"_parent": {
+								"$ref": "AAAAAAF64buXWkaKnkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF64eY3gUd1ibE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF64eY3gUd4oFM=",
+									"_parent": {
+										"$ref": "AAAAAAF64eY3gUd3WP4="
+									},
+									"model": {
+										"$ref": "AAAAAAF64eY3gUd1ibE="
+									},
+									"font": "Arial;13;0",
+									"left": 303,
+									"top": 304,
+									"width": 99.7216796875,
+									"height": 13,
+									"alpha": -4.658868475113694,
+									"distance": 56.08029957123981,
+									"hostEdge": {
+										"$ref": "AAAAAAF64eY3gUd3WP4="
+									},
+									"edgePosition": 1,
+									"text": "Read Information"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF64dwSp0cLhu4="
+							},
+							"tail": {
+								"$ref": "AAAAAAF64eBBfUdLptg="
+							},
+							"lineStyle": 2,
+							"points": "408:352;408:263",
+							"nameLabel": {
+								"$ref": "AAAAAAF64eY3gUd4oFM="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF64eeTqEeRfVc=",
+							"_parent": {
+								"$ref": "AAAAAAF64buXWkaKnkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF64eeTqEeP1SM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF64eeTqEeSueY=",
+									"_parent": {
+										"$ref": "AAAAAAF64eeTqEeRfVc="
+									},
+									"model": {
+										"$ref": "AAAAAAF64eeTqEeP1SM="
+									},
+									"font": "Arial;13;0",
+									"left": 431,
+									"top": 300,
+									"width": 96.84619140625,
+									"height": 13,
+									"alpha": 1.5889759163409607,
+									"distance": 55.00909015790027,
+									"hostEdge": {
+										"$ref": "AAAAAAF64eeTqEeRfVc="
+									},
+									"edgePosition": 1,
+									"text": "Attendance Data"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF64eBBfUdLptg="
+							},
+							"tail": {
+								"$ref": "AAAAAAF64dwSp0cLhu4="
+							},
+							"lineStyle": 2,
+							"points": "424:263;424:352",
+							"nameLabel": {
+								"$ref": "AAAAAAF64eeTqEeSueY="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF64enfSkeeHAQ=",
+							"_parent": {
+								"$ref": "AAAAAAF64buXWkaKnkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF64enfSkec7Rs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF64enfSkefIe4=",
+									"_parent": {
+										"$ref": "AAAAAAF64enfSkeeHAQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF64enfSkec7Rs="
+									},
+									"font": "Arial;13;0",
+									"left": 570,
+									"top": 433,
+									"width": 112.00439453125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF64enfSkeeHAQ="
+									},
+									"edgePosition": 1,
+									"text": "Department Setting"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF64eBBfUdLptg="
+							},
+							"tail": {
+								"$ref": "AAAAAAF64dzK+EcjpIo="
+							},
+							"lineStyle": 2,
+							"points": "712:424;543:424",
+							"nameLabel": {
+								"$ref": "AAAAAAF64enfSkefIe4="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF64etuGEeq81k=",
+							"_parent": {
+								"$ref": "AAAAAAF64buXWkaKnkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF64etuGEeoguU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF64etuGEer/GI=",
+									"_parent": {
+										"$ref": "AAAAAAF64etuGEeq81k="
+									},
+									"model": {
+										"$ref": "AAAAAAF64etuGEeoguU="
+									},
+									"font": "Arial;13;0",
+									"left": 572,
+									"top": 382,
+									"width": 110.55078125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF64etuGEeq81k="
+									},
+									"edgePosition": 1,
+									"text": "Department Report"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF64dzK+EcjpIo="
+							},
+							"tail": {
+								"$ref": "AAAAAAF64eBBfUdLptg="
+							},
+							"lineStyle": 2,
+							"points": "543:403;712:403",
+							"nameLabel": {
+								"$ref": "AAAAAAF64etuGEer/GI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF64e0HV0e3NK8=",
+							"_parent": {
+								"$ref": "AAAAAAF64buXWkaKnkw="
+							},
+							"model": {
+								"$ref": "AAAAAAF64e0HV0e1vsU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF64e0HV0e4vtg=",
+									"_parent": {
+										"$ref": "AAAAAAF64e0HV0e3NK8="
+									},
+									"model": {
+										"$ref": "AAAAAAF64e0HV0e1vsU="
+									},
+									"font": "Arial;13;0",
+									"left": 438,
+									"top": 488,
+									"width": 156.1015625,
+									"height": 13,
+									"alpha": 1.5480727412618391,
+									"distance": 88.02272433866155,
+									"hostEdge": {
+										"$ref": "AAAAAAF64e0HV0e3NK8="
+									},
+									"edgePosition": 1,
+									"text": "College Attendance Report"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF64d0cg0cxnF8="
+							},
+							"tail": {
+								"$ref": "AAAAAAF64eBBfUdLptg="
+							},
+							"lineStyle": 2,
+							"points": "429:448;429:536",
+							"nameLabel": {
+								"$ref": "AAAAAAF64e0HV0e4vtg="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAF64e3Xg0fBhRQ=",
+							"_parent": {
+								"$ref": "AAAAAAF64buXWkaKnkw="
+							},
+							"lineColor": "#030303",
+							"fontColor": "#007c3e",
+							"font": "Roboto;20;0",
+							"left": 248,
+							"top": 624,
+							"width": 465,
+							"height": 72,
+							"text": "DFD Level 0 of Attendance Management System"
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF64dwSp0cJndc=",
+					"_parent": {
+						"$ref": "AAAAAAF64buXWUaJvg0="
+					},
+					"name": "Lecturer",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF64eeTqEeP1SM=",
+							"_parent": {
+								"$ref": "AAAAAAF64dwSp0cJndc="
+							},
+							"name": "Attendance Data",
+							"source": {
+								"$ref": "AAAAAAF64dwSp0cJndc="
+							},
+							"target": {
+								"$ref": "AAAAAAF64eBBfUdJnTg="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF64dx5IUcVvKY=",
+					"_parent": {
+						"$ref": "AAAAAAF64buXWUaJvg0="
+					},
+					"name": "Admin",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF64eJePEdc9RY=",
+							"_parent": {
+								"$ref": "AAAAAAF64dx5IUcVvKY="
+							},
+							"name": "Software Setting",
+							"source": {
+								"$ref": "AAAAAAF64dx5IUcVvKY="
+							},
+							"target": {
+								"$ref": "AAAAAAF64eBBfUdJnTg="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF64dzK+Echx2M=",
+					"_parent": {
+						"$ref": "AAAAAAF64buXWUaJvg0="
+					},
+					"name": "HOD",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF64enfSkec7Rs=",
+							"_parent": {
+								"$ref": "AAAAAAF64dzK+Echx2M="
+							},
+							"name": "Department Setting",
+							"source": {
+								"$ref": "AAAAAAF64dzK+Echx2M="
+							},
+							"target": {
+								"$ref": "AAAAAAF64eBBfUdJnTg="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF64d0cg0cvKzI=",
+					"_parent": {
+						"$ref": "AAAAAAF64buXWUaJvg0="
+					},
+					"name": "Principal"
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF64eBBfUdJnTg=",
+					"_parent": {
+						"$ref": "AAAAAAF64buXWUaJvg0="
+					},
+					"name": "Student Attendance Management System",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF64eShwEdqjGs=",
+							"_parent": {
+								"$ref": "AAAAAAF64eBBfUdJnTg="
+							},
+							"name": "Report",
+							"source": {
+								"$ref": "AAAAAAF64eBBfUdJnTg="
+							},
+							"target": {
+								"$ref": "AAAAAAF64dx5IUcVvKY="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF64eY3gUd1ibE=",
+							"_parent": {
+								"$ref": "AAAAAAF64eBBfUdJnTg="
+							},
+							"name": "Read Information",
+							"source": {
+								"$ref": "AAAAAAF64eBBfUdJnTg="
+							},
+							"target": {
+								"$ref": "AAAAAAF64dwSp0cJndc="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF64etuGEeoguU=",
+							"_parent": {
+								"$ref": "AAAAAAF64eBBfUdJnTg="
+							},
+							"name": "Department Report",
+							"source": {
+								"$ref": "AAAAAAF64eBBfUdJnTg="
+							},
+							"target": {
+								"$ref": "AAAAAAF64dzK+Echx2M="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF64e0HV0e1vsU=",
+							"_parent": {
+								"$ref": "AAAAAAF64eBBfUdJnTg="
+							},
+							"name": "College Attendance Report",
+							"source": {
+								"$ref": "AAAAAAF64eBBfUdJnTg="
+							},
+							"target": {
+								"$ref": "AAAAAAF64d0cg0cvKzI="
+							}
+						}
+					],
+					"id": "0"
+				}
+			]
+		}
+	]
+}
